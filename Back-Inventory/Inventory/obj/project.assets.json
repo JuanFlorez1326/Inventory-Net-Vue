@@ -5917,11 +5917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Backend\\Inventory\\Inventory.csproj",
+      "projectUniqueName": "D:\\Inventory\\Back-Inventory\\Inventory\\Inventory.csproj",
       "projectName": "Inventory",
-      "projectPath": "D:\\Projects\\Backend\\Inventory\\Inventory.csproj",
+      "projectPath": "D:\\Inventory\\Back-Inventory\\Inventory\\Inventory.csproj",
       "packagesPath": "C:\\Users\\juank\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Backend\\Inventory\\obj\\",
+      "outputPath": "D:\\Inventory\\Back-Inventory\\Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\juank\\AppData\\Roaming\\NuGet\\NuGet.Config",

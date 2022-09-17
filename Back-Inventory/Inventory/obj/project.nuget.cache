@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WnS3wAGQOVU93UiQFikrVPuOUlAAcDwppCinUKxxW5It+pvJ/IfZmJUqjGnmWGK7QS1H6w4e1DX+B/X1jgKwAw==",
+  "dgSpecHash": "4vvAFMwdwkHcDwCtNfhaZdQRz68V/hbAhnXES/4k4Oh/WP2iLwyPrAWkbVPzriNgF+ZiuUCXXbPwcR+rdPCjzg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Backend\\Inventory\\Inventory.csproj",
+  "projectFilePath": "D:\\Inventory\\Back-Inventory\\Inventory\\Inventory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\juank\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\juank\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

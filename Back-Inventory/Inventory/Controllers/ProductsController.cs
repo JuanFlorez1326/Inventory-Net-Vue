@@ -41,7 +41,7 @@ namespace Inventory.Controllers
                 using (var db = new SqlConnection(db_instance.connection))
                 {
                     var sql = $"SELECT p.* FROM Products p JOIN Users u ON " +
-                        $"p.user_productId = u.document_id WHERE p.user_productId = {id_user};";
+                        $"p.user_product = u.document_id WHERE p.user_product = {id_user};";
 
                     listProducts = db.Query<Models.Entities.Products>(sql);
                 }
@@ -61,7 +61,7 @@ namespace Inventory.Controllers
                 int result = 0;
                 using (var db = new SqlConnection(db_instance.connection))
                 {
-                    var sql = $"INSERT INTO Products (user_productId, name_product, description, tickets, departures, total, seller, image_url, price)" +
+                    var sql = $"INSERT INTO Products (user_product, name_product, description, tickets, departures, total, seller, image_url, price)" +
                         $" VALUES (@user_productId, @name_product, @description, @tickets, @departures, @total, @seller, @image_url, @price)";
 
                     result = db.Execute(sql, products);
@@ -70,7 +70,7 @@ namespace Inventory.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return BadRequest("Error: " + ex.Message);
             }
         }
 
